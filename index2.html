@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <button
+      data-open-modal
+      autofocus
+      class="bg-sky-800 w-36 h-16 m-14 rounded-xl text-gray-100 fixed"
+      aria-haspopup="dialog"
+      aria-controls="dialog"
+    >
+      Open
+    </button>
+
+    <dialog id="dialog" class="bg-slate-200 p-10 w-3/6 rounded-xl" aria-labelledby="dialog-title">
+      <h2 id="dialog-title">Dialog Box Title</h2>
+      <p>Dialog Box Content</p>
+      <button id="close-dialog" autofocus>&times;</button>
+    </dialog>
+
+    <script type="module" src="/main.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
+

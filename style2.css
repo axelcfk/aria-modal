@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+  
+  .nav.visible {
+    transform: translateX(0);
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    background-color: beige;
+    width: 80px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
